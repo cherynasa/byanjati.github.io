@@ -1,96 +1,76 @@
 {
-"node":[
-	{
-	  "ids":"n_0",
-	  "nodes": [
-	    {
-	      "id": "n0",
-	      "label": "A node",
-	      "x": 0,
-	      "y": 0,
-	      "size": 3
-	    },
-	    {
-	      "id": "n1",
-	      "label": "Another node",
-	      "x": 3,
-	      "y": 1,
-	      "size": 2
-	    },
-	    {
-	      "id": "n2",
-	      "label": "And a last one",
-	      "x": 1,
-	      "y": 3,
-	      "size": 1
-	    }
-	  ],
-	  "edges": [
-	    {
-	      "id": "e0",
-	      "source": "n0",
-	      "target": "n1"
-	    },
-	    {
-	      "id": "e1",
-	      "source": "n1",
-	      "target": "n2"
-	    },
-	    {
-	      "id": "e2",
-	      "source": "n2",
-	      "target": "n0"
-	    }
-	  ]
-	},
-	{
-		"ids":"t_0",
-		"nodes": [
-	    {
-	      "id": "na",
-	      "label": "A node",
-	      "x": 0,
-	      "y": 0,
-	      "size": 3
-	    },
-	    {
-	      "id": "nb",
-	      "label": "Another node",
-	      "x": 3,
-	      "y": 1,
-	      "size": 2
-	    },
-	    {
-	      "id": "nc",
-	      "label": "And a last one",
-	      "x": 1,
-	      "y": 3,
-	      "size": 1
-	    }
-	  ],
-	  "edges": [
-	    {
-	      "id": "eq",
-	      "source": "n0",
-	      "target": "n1"
-	    },
-	    {
-	      "id": "er",
-	      "source": "n1",
-	      "target": "n2"
-	    },
-	    {
-	      "id": "es",
-	      "source": "n2",
-	      "target": "n0"
-	    }
-	  ]
-	}
-	],
-	"edge":
-	{
-		"id":"e_0",
-		"source":"n_0",
-		"target":"t_0"
-	}
+  "nodes": [
+    {
+      "id": "n1",
+      "label": "Java Course Intro",
+      "url": "http://www.inf.ed.ac.uk/teaching/courses/inf1/op/2014/lectures/01-intro.slides.pdf",
+      "color": "white",
+      "x": 0,
+      "y": 0.25,
+      "size":1
+    },
+    {
+      "id": "n2",
+      "label": "Fundamental Programming Structures",
+      "url": "http://www.informit.com/articles/article.aspx?p=101766",
+      "color": "white",
+      "x": 0.25,
+      "y": 0.5,
+      "size":1
+    },
+    {
+      "id": "n3",
+      "label": "Tipe Data, Variabel dan Konstanta",
+      "url": "http://susi.staff.jak-stik.ac.id/files/pemrograman-java[1].pdf",
+      "color": "white",
+      "x": 0.5,
+      "y": 0.25,
+      "size":1
+    },
+    {
+      "id": "n4",
+      "label": "Variabel Array",
+      "url": "http://muhammadlundy.blogspot.com/2013/10/penerapan-array-pada-pemograman.html",
+      "color": "white",
+      "x": 0.5,
+      "y": 0.75,
+      "size":1
+    },
+    {
+      "id": "n5",
+      "label": "Operator, Pernyataan Kondisional, dan Perulangan",
+      "url": "http://www.kompikita.net/2012/04/fungsi-if-switch-for-while-do-while.html",
+      "color": "white",
+      "x": 0.75,
+      "y": 0.5,
+      "size":1
+    }
+  ],
+  "edges":[
+    {
+      "id":"e1",
+      "source":"n1",
+      "target":"n2"
+    },
+    {
+      "id":"e2",
+      "source":"n2",
+      "target":"n3"
+    },
+    {
+      "id":"e3",
+      "source":"n2",
+      "target":"n4"
+    },
+    {
+      "id":"e4",
+      "source":"n3",
+      "target":"n5"
+    },
+    {
+      "id":"e5",
+      "source":"n4",
+      "target":"n5"
+    }
+  ]
 }
