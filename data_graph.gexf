@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-06-26">
+    <creator>Byan Jati</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="materi_id" title="materid" type="integer"></attribute>
+      <attribute id="url_materi" title="url" type="string"></attribute>
+      <attribute id="nama_materi" title="materi" type="string"></attribute>
+      <attribute id="color" title="color" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="Java Course Intro">
+        <attvalues>
+          <attvalue for="materi_id" value="1"></attvalue>
+          <attvalue for="url_materi" value="http://www.inf.ed.ac.uk/teaching/courses/inf1/op/2014/lectures/01-intro.slides.pdf"></attvalue>
+          <attvalue for="nama_materi" value="Java Course Intro"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="54.411766"></viz:size>
+        <viz:position x="29.405989" y="800.1614" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="2" label="Fundamental Programming Structures">
+        <attvalues>
+          <attvalue for="materi_id" value="2"></attvalue>
+          <attvalue for="url_materi" value="http://www.informit.com/articles/article.aspx?p=101766"></attvalue>
+          <attvalue for="nama_materi" value="Fundamental Programming Structures"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="102.94118"></viz:size>
+        <viz:position x="500.27966" y="605.2539" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="3" label="Tipe Data, Variabel dan Konstanta">
+        <attvalues>
+          <attvalue for="materi_id" value="3"></attvalue>
+          <attvalue for="url_materi" value="http://susi.staff.jak-stik.ac.id/files/pemrograman-java[1].pdf"></attvalue>
+          <attvalue for="nama_materi" value="Tipe Data, Variabel dan Konstanta"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-268.80237" y="700.7377" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="4" label="Variabel Array">
+        <attvalues>
+          <attvalue for="materi_id" value="4"></attvalue>
+          <attvalue for="url_materi" value="http://muhammadlundy.blogspot.com/2013/10/penerapan-array-pada-pemograman.html"></attvalue>
+          <attvalue for="nama_materi" value="Variabel Array"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="63.235294"></viz:size>
+        <viz:position x="247.81334" y="700.4834" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="5" label="Operator, Pernyataan Kondisional, dan Perulangan">
+        <attvalues>
+          <attvalue for="materi_id" value="5"></attvalue>
+          <attvalue for="url_materi" value="http://www.kompikita.net/2012/04/fungsi-if-switch-for-while-do-while.html"></attvalue>
+          <attvalue for="nama_materi" value="Operator, Pernyataan Kondisional, dan Perulangan"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-300.5093" y="500.489" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="6" label="Karakteristik OOP">
+        <attvalues>
+          <attvalue for="materi_id" value="6"></attvalue>
+          <attvalue for="url_materi" value="http://catatanku15.blogspot.com/2012/10/tugas-oop-2-karakteristik-pemrograman.html"></attvalue>
+          <attvalue for="nama_materi" value="Karakteristik OOP"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-800.881" y="200.96594" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="7" label="Kelas">
+        <attvalues>
+          <attvalue for="materi_id" value="7"></attvalue>
+          <attvalue for="url_materi" value="http://blogciqwan.net/code-desktop/code-java/dasar-pemrograman-berorientasi-objek-pbo"></attvalue>
+          <attvalue for="nama_materi" value="Kelas"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="67.64706"></viz:size>
+        <viz:position x="-500.8152" y="-300.573322" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="8" label="Field">
+        <attvalues>
+          <attvalue for="materi_id" value="8"></attvalue>
+          <attvalue for="url_materi" value="http://blogciqwan.net/code-desktop/code-java/dasar-pemrograman-berorientasi-objek-pbo"></attvalue>
+          <attvalue for="nama_materi" value="Field"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-500.9783" y="-1000.9243" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="9" label="Constructor">
+        <attvalues>
+          <attvalue for="materi_id" value="9"></attvalue>
+          <attvalue for="url_materi" value="http://blogciqwan.net/code-desktop/code-java/dasar-pemrograman-berorientasi-objek-pbo"></attvalue>
+          <attvalue for="nama_materi" value="Method"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1046.405" y="-800.56287" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="10" label="Diagram Kelas">
+        <attvalues>
+          <attvalue for="materi_id" value="10"></attvalue>
+          <attvalue for="url_materi" value="http://peterdraw.wordpress.com/2011/10/30/konsep-ooad-object-oriented-analysis-design/"></attvalue>
+          <attvalue for="nama_materi" value="Diagram Kelas"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="54.411766"></viz:size>
+        <viz:position x="551.88194" y="-441.5433" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="11" label="Hubungan Antar Kelas">
+        <attvalues>
+          <attvalue for="materi_id" value="11"></attvalue>
+          <attvalue for="url_materi" value="http://denisulistio.students.uii.ac.id/2012/12/06/multiclass-dan-relasi-pada-pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="Hubungan Antar Kelas"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="58.82353"></viz:size>
+        <viz:position x="523.2344" y="-1072.3979" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="12" label="Inheritance dan Polymorfisme">
+        <attvalues>
+          <attvalue for="materi_id" value="12"></attvalue>
+          <attvalue for="url_materi" value="https://a114808201105354.wordpress.com/2012/04/25/inheritance-pewarisan-dalam-pemrograman-berorientasi-objek-pbo/"></attvalue>
+          <attvalue for="nama_materi" value="Inheritance dan Polymorfisme"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="54.411766"></viz:size>
+        <viz:position x="1000.047115" y="-1500.94595" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="13" label="Polymorfisme">
+        <attvalues>
+          <attvalue for="materi_id" value="13"></attvalue>
+          <attvalue for="url_materi" value="https://afathur.wordpress.com/2008/09/14/polimorfisme-dalam-pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="Polymorfisme"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="85.29411"></viz:size>
+        <viz:position x="1200.02844" y="-1400.8269" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="14" label="Interface">
+        <attvalues>
+          <attvalue for="materi_id" value="14"></attvalue>
+          <attvalue for="url_materi" value="http://hendry-yanto.blogspot.com/2011/12/pemrograman-berorientasi-objek.html"></attvalue>
+          <attvalue for="nama_materi" value="Interface"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="89.70589"></viz:size>
+        <viz:position x="2044.52673" y="-1098.8274" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="15" label="Abstract">
+        <attvalues>
+          <attvalue for="materi_id" value="15"></attvalue>
+          <attvalue for="url_materi" value="http://www.techopedia.com/definition/17408/abstract-class"></attvalue>
+          <attvalue for="nama_materi" value="Abstract"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="63.235294"></viz:size>
+        <viz:position x="2044.52673" y="-898.8274" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="16" label="Keyword Super">
+        <attvalues>
+          <attvalue for="materi_id" value="16"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideshare.net/liroesdy/network-programming-03-pemrograman-java-lanjutan"></attvalue>
+          <attvalue for="nama_materi" value="Keyword Super"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="102.94118"></viz:size>
+        <viz:position x="2374.3423" y="154.174225" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="17" label="Exception">
+        <attvalues>
+          <attvalue for="materi_id" value="17"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideshare.net/jurnalkomputer/pemrograman-java-exceptionf"></attvalue>
+          <attvalue for="nama_materi" value="Exception"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2000.6031" y="200.11444" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="18" label="Try">
+        <attvalues>
+          <attvalue for="materi_id" value="18"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideshare.net/jurnalkomputer/pemrograman-java-exceptionf"></attvalue>
+          <attvalue for="nama_materi" value="Try"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="72.05882"></viz:size>
+        <viz:position x="2300.45703" y="-300.8909" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="19" label="Catch">
+        <attvalues>
+          <attvalue for="materi_id" value="19"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideshare.net/jurnalkomputer/pemrograman-java-exceptionf"></attvalue>
+          <attvalue for="nama_materi" value="Catch"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="85.29411"></viz:size>
+        <viz:position x="2300.03954" y="-500.9634" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="20" label="Finally">
+        <attvalues>
+          <attvalue for="materi_id" value="20"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideshare.net/jurnalkomputer/pemrograman-java-exceptionf"></attvalue>
+          <attvalue for="nama_materi" value="Finally"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="76.47059"></viz:size>
+        <viz:position x="2500.4122" y="38.487923" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="21" label="Throw">
+        <attvalues>
+          <attvalue for="materi_id" value="21"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideshare.net/jurnalkomputer/pemrograman-java-exceptionf"></attvalue>
+          <attvalue for="nama_materi" value="Throw"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="54.411766"></viz:size>
+        <viz:position x="1840.5632" y="-428.0462" z="0.0"></viz:position>
+        <viz:color r="64" g="191" b="136"></viz:color>
+      </node>
+      <node id="22" label="Throws">
+        <attvalues>
+          <attvalue for="materi_id" value="22"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideshare.net/jurnalkomputer/pemrograman-java-exceptionf"></attvalue>
+          <attvalue for="nama_materi" value="Throws"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="67.64706"></viz:size>
+        <viz:position x="1887.2834" y="439.71442" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="23" label="Thread">
+        <attvalues>
+          <attvalue for="materi_id" value="23"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideserve.com/chars/pemrograman-berorientasi-objek"></attvalue>
+          <attvalue for="nama_materi" value="Thread"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="85.29411"></viz:size>
+        <viz:position x="2000.8853" y="700.7158" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="24" label="Subclassing Thread">
+        <attvalues>
+          <attvalue for="materi_id" value="24"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideserve.com/chars/pemrograman-berorientasi-objek"></attvalue>
+          <attvalue for="nama_materi" value="Subclassing Thread"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="107.35294"></viz:size>
+        <viz:position x="1594.4542" y="659.4413" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="25" label="Metode pada Thread">
+        <attvalues>
+          <attvalue for="materi_id" value="25"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideserve.com/chars/pemrograman-berorientasi-objek"></attvalue>
+          <attvalue for="nama_materi" value="Metode pada Thread"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="63.235294"></viz:size>
+        <viz:position x="2500.1428" y="600.1306" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="26" label="Sinkronisasi Thread">
+        <attvalues>
+          <attvalue for="materi_id" value="26"></attvalue>
+          <attvalue for="url_materi" value="http://www.slideserve.com/chars/pemrograman-berorientasi-objek"></attvalue>
+          <attvalue for="nama_materi" value="Sinkronisasi Thread"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="58.82353"></viz:size>
+        <viz:position x="1500.7107" y="1000.65134" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="27" label="AWT dan Swing">
+        <attvalues>
+          <attvalue for="materi_id" value="27"></attvalue>
+          <attvalue for="url_materi" value="http://www.informatika.unsyiah.ac.id/viska/pbo/prak-3.pdf"></attvalue>
+          <attvalue for="nama_materi" value="AWT dan Swing"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="76.47059"></viz:size>
+        <viz:position x="1600.071" y="1200.121" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="28" label="Komponen AWT">
+        <attvalues>
+          <attvalue for="materi_id" value="28"></attvalue>
+          <attvalue for="url_materi" value="http://didiindra.wordpress.com/tag/pengertian-java/"></attvalue>
+          <attvalue for="nama_materi" value="Komponen AWT"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="160.29411"></viz:size>
+        <viz:position x="1188.413" y="359.24182" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="29" label="Komponen Swing">
+        <attvalues>
+          <attvalue for="materi_id" value="29"></attvalue>
+          <attvalue for="url_materi" value="http://plug2-123110030.blogspot.com/2012/05/laporan-dan-tugas-modul-v-pbo-swing.html"></attvalue>
+          <attvalue for="nama_materi" value="Komponen Swing"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="76.47059"></viz:size>
+        <viz:position x="852.358173" y="1200.15752" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="30" label="Top Level Container">
+        <attvalues>
+          <attvalue for="materi_id" value="30"></attvalue>
+          <attvalue for="url_materi" value="http://rharwidyasto.blogspot.com/2014/05/swing-pemrograman-berorientasi-objek.html"></attvalue>
+          <attvalue for="nama_materi" value="Top Level Container"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="76.47059"></viz:size>
+        <viz:position x="1000.7242" y="1200.61195" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="31" label="Pengaturan Layout">
+        <attvalues>
+          <attvalue for="materi_id" value="31"></attvalue>
+          <attvalue for="url_materi" value="http://www.scribd.com/doc/86921227/01-Java-GUI"></attvalue>
+          <attvalue for="nama_materi" value="Pengaturan Layout"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="58.82353"></viz:size>
+        <viz:position x="490.4436" y="1089.9109" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="32" label="Event Handling">
+        <attvalues>
+          <attvalue for="materi_id" value="32"></attvalue>
+          <attvalue for="url_materi" value="http://d4u2iv.blogspot.com/2012/03/event-handling-gui-pada-java.html"></attvalue>
+          <attvalue for="nama_materi" value="Event Handling"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="76.47059"></viz:size>
+        <viz:position x="1300.472" y="1300.01892" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="33" label="JDBC (Java Database Connectivity)">
+        <attvalues>
+          <attvalue for="materi_id" value="33"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="54.411766"></viz:size>
+        <viz:position x="800.82267" y="-500.7146" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="34" label="Intro Java">
+        <attvalues>
+          <attvalue for="materi_id" value="34"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="180"></viz:size>
+        <viz:position x="150.82267" y="500.7146" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="35" label="Konsep Dasar OOP">
+        <attvalues>
+          <attvalue for="materi_id" value="35"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="180"></viz:size>
+        <viz:position x="-100.82267" y="-200.7146" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="36" label="Agregasi dan Komposisi">
+        <attvalues>
+          <attvalue for="materi_id" value="36"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="180"></viz:size>
+        <viz:position x="105.82267" y="-800.7146" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="37" label="Inheritance dan Polymorfisme">
+        <attvalues>
+          <attvalue for="materi_id" value="37"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="180"></viz:size>
+        <viz:position x="1005.82267" y="-1200.7146" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+       <node id="38" label="Inheritance dan Abstract">
+        <attvalues>
+          <attvalue for="materi_id" value="38"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="180"></viz:size>
+        <viz:position x="1805.82267" y="-800.7146" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="39" label="Exception">
+        <attvalues>
+          <attvalue for="materi_id" value="39"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="180"></viz:size>
+        <viz:position x="2050.82267" y="-200.7146" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+      <node id="40" label="Multithreading">
+        <attvalues>
+          <attvalue for="materi_id" value="40"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="180"></viz:size>
+        <viz:position x="1700.82267" y="500.7146" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+       <node id="41" label="GUI">
+        <attvalues>
+          <attvalue for="materi_id" value="41"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="180"></viz:size>
+        <viz:position x="1000.047115" y="850.94595" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+       <node id="42" label="JDBC">
+        <attvalues>
+          <attvalue for="materi_id" value="42"></attvalue>
+          <attvalue for="url_materi" value="http://midnov.wordpress.com/category/pemrograman-berorientasi-objek/"></attvalue>
+          <attvalue for="nama_materi" value="JDBC (Java Database Connectivity)"></attvalue>
+          <attvalue for="color" value="white"></attvalue>
+        </attvalues>
+        <viz:size value="180"></viz:size>
+        <viz:position x="1000" y="-200.7146" z="0.0"></viz:position>
+        <viz:color r="189" g="195" b="199"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="34" target="35">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="35" target="36">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="36" target="37">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="37" target="38">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="38" target="39">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="39" target="40">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="40" target="41">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="41" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="34" target="1">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="34" target="2">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="34" target="3">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="34" target="4">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="34" target="5">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="35" target="6">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="35" target="7">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="35" target="8">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="35" target="9">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="36" target="10">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="36" target="11">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="37" target="12">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="37" target="13">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="38" target="14">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="38" target="15">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="39" target="16">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="39" target="17">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="39" target="18">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="39" target="19">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="39" target="20">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="39" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="40" target="22">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="40" target="23">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="40" target="24">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="40" target="25">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="41" target="26">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="41" target="27">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="41" target="28">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="41" target="29">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="41" target="30">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="41" target="31">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="41" target="32">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="42" target="33">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
