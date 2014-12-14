@@ -67,7 +67,7 @@
           // console.log(e.type, e.data.node.label, e.data.captor);
           // now open new window for your purpose
 
-          var win = window.open(e.data.node.label, '_blank');
+          var win = window.open(e.data.node.attributes.url_materi, '_blank');
         });
 
         s.graph.edges().forEach(function(e) {
